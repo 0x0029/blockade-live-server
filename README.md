@@ -50,20 +50,6 @@
 
 ---
 
-## 🚀 Live Demo
-
-[View Live Demo](https://your-demo-link.com) *(Add your deployment link here)*
-
----
-
-## 📸 Screenshots
-
-| Desktop View | Mobile View | Settings Panel |
-|--------------|-------------|----------------|
-| (Add image)  | (Add image) | (Add image)    |
-
----
-
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
