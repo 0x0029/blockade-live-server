@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fogwall - Server Status</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="brand">
+                    <div class="brand-icon">🌫️</div>
+                    <div>
+                        <h1 class="brand-name">Fogwall</h1>
+                        <span class="brand-tagline">Server Status</span>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <button class="btn-refresh" id="refreshBtn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M1 4v6h6" />
+                            <path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10" />
+                        </svg>
+                        Refresh
+                    </button>
+                    <span class="last-updated" id="lastUpdated">Updating...</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">Total Servers</span>
+                <span class="stat-value" id="totalServers">—</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Online</span>
+                <span class="stat-value online" id="onlineServers">—</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Total Players</span>
+                <span class="stat-value" id="totalPlayers">—</span>
+            </div>
+        </div>
+
+        <!-- Server Grid -->
+        <main class="server-grid" id="serverGrid">
+            <div class="loading-state">
+                <div class="spinner"></div>
+                <p>Summoning servers from the fog...</p>
+            </div>
+        </main>
+
+        <!-- Error State -->
+        <div class="error-state hidden" id="errorState">
+            <div class="error-icon">⚠️</div>
+            <h3>Couldn't reach the server list</h3>
+            <p>The fog is too thick right now. Try refreshing.</p>
+            <button class="btn-retry" id="retryBtn">Retry</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
