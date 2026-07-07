@@ -1,4 +1,4 @@
-# 🎮 Squdsw Live Server Browser
+# 🎮 Fogwall Live Server Browser
 
 > A real-time server monitoring tool for Blockade 3D with custom UI, smart notifications, and interactive features
 
@@ -6,7 +6,7 @@
 
 ## 📖 About
 
-**Squdsw Live Server Browser** is a web-based application that displays live server information for Blockade 3D in real-time. It fetches data directly from the game's API and presents it in a clean, modern interface with a custom cursor, animated background, and an intelligent notification system.
+**Fogwall Live Server Browser** is a web-based application that displays live server information for Blockade 3D in real-time. It fetches data directly from the game's API and presents it in a clean, modern interface with a custom cursor, animated background, and an intelligent notification system.
 
 > ⚠️ **Disclaimer:** This is not my original source code. All credits go to the rightful developer. This repository is a **forked version** maintained for personal use and educational purposes.
 
@@ -66,7 +66,7 @@
 ## 📁 Project Structure
 
 ```
-squdsw-live-server/
+Fogwall-live-server/
 ├── index.html              # Main HTML structure
 ├── style.css               # Desktop styles
 ├── mobil.css               # Mobile styles
@@ -95,8 +95,8 @@ squdsw-live-server/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/squdsw-live-server.git
-cd squdsw-live-server
+git clone https://github.com/yourusername/Fogwall-live-server.git
+cd Fogwall-live-server
 ```
 
 2. **Open the application**
@@ -299,7 +299,7 @@ A: Yes, it's fully responsive and mobile-optimized.
 
 - **Discord:** *[Add link]*
 - **VK:** [Original post](https://vk.com/wall-216549834_103)
-- **Issues:** [GitHub Issues](https://github.com/yourusername/squdsw-live-server/issues)
+- **Issues:** [GitHub Issues](https://github.com/yourusername/Fogwall-live-server/issues)
 
 ---
 
@@ -339,6 +339,6 @@ Thanks to:
 
 **Made with ❤️ for the Blockade 3D community**
 
-[⬆ Back to Top](#squdsw-live-server-browser)
+[⬆ Back to Top](#Fogwall-live-server-browser)
 
 </div>
